@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">7winds</string>
+    <string name="title_persons">Сотрудники</string>
+    <string name="title_projects">Проекты</string>
+    <string name="title_plans">Планерки</string>
+    <string name="title_trainee">Стажеры</string>
+    <string name="title_chat">Чат</string>
+
+    <string name="empty_persons">Сотрудники не найдены</string>
+    <string name="empty_projects">Проекты не найдены</string>
+    <string name="empty_plans">Нет запланированных планерок</string>
+    <string name="empty_trainee">Нет стажеров</string>
+
+    <string name="internet_connect_error">Нет интернета, данные не обновлены</string>
+    <string name="internet_update_message">Обновление…</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

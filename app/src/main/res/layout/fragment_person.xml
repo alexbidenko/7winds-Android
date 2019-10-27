@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             tools:context=".PersonFragment">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:background="@android:color/black">
+
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:src="@drawable/ic_arrow_back_24dp" style="@style/Widget.AppCompat.ActionButton.CloseMode"
+                     android:id="@+id/person_back"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="180dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+            <RelativeLayout android:layout_width="100dp" android:layout_height="100dp">
+
+                <ImageView android:layout_width="100dp" android:layout_height="100dp"
+                           android:src="@drawable/logo" android:scaleType="centerCrop"
+                           android:id="@+id/page_person_image"/>
+
+                <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                           android:id="@+id/page_person_icon_1" android:layout_alignParentStart="true"
+                           android:layout_marginStart="0dp" android:layout_alignParentTop="true"
+                           android:layout_marginTop="0dp"/>
+
+                <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                           android:id="@+id/page_person_icon_2" android:layout_alignParentEnd="true"
+                           android:layout_marginEnd="0dp" android:layout_alignParentTop="true"
+                           android:layout_marginTop="0dp"/>
+
+                <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                           android:id="@+id/page_person_icon_3" android:layout_alignParentEnd="true"
+                           android:layout_marginEnd="0dp" android:layout_alignParentBottom="true"
+                           android:layout_marginBottom="0dp"/>
+
+                <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                           android:id="@+id/page_person_icon_4" android:layout_alignParentStart="true"
+                           android:layout_marginStart="0dp" android:layout_alignParentBottom="true"
+                           android:layout_marginBottom="0dp"/>
+
+            </RelativeLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textSize="14sp" android:text="Егор Овчинников" android:textColor="@android:color/white"
+                      android:id="@+id/page_person_name"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textSize="14sp" android:text="Исполнительный директор" android:textColor="@android:color/white"
+                      android:id="@+id/page_person_who"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:gravity="center" android:layout_alignParentEnd="true"
+                      android:layout_marginEnd="0dp" android:layout_alignParentBottom="true"
+                      android:layout_marginBottom="0dp">
+
+            <LinearLayout android:layout_width="32dp" android:layout_height="32dp"
+                          android:gravity="center" android:layout_marginEnd="0dp">
+
+                <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                             android:src="@drawable/ic_call_24dp"
+                             style="@style/Widget.AppCompat.ActionButton.CloseMode"
+                             android:id="@+id/page_person_tel"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="32dp" android:layout_height="32dp"
+                          android:gravity="center" android:layout_marginEnd="0dp">
+
+                <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                             android:src="@drawable/ic_mail_24dp"
+                             style="@style/Widget.AppCompat.ActionButton.CloseMode"
+                             android:id="@+id/page_person_email"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/page_person_layout"/>
+
+    </ScrollView>
+
+</LinearLayout>

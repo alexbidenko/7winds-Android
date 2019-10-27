@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             tools:context=".AllPlansFragment">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/title_plans" android:textColor="@android:color/white"
+                  android:textSize="@dimen/title_font_size" android:textAlignment="center"
+                  android:padding="@dimen/title_text_padding"/>
+
+    </RelativeLayout>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="@string/empty_plans" android:textAlignment="center" android:padding="8dp"
+              android:textSize="14sp" android:textColor="@android:color/white"
+    android:id="@+id/all_plans_empty"/>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/all_plans_layout"/>
+
+    </ScrollView>
+
+</LinearLayout>

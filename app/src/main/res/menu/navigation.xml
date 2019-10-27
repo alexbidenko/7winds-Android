@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_persons"
+            android:icon="@drawable/image_persons"
+            android:title="@string/title_persons"/>
+
+    <item
+            android:id="@+id/navigation_projects"
+            android:icon="@drawable/image_projects"
+            android:title="@string/title_projects"/>
+
+    <item
+            android:id="@+id/navigation_plans"
+            android:icon="@drawable/image_plans"
+            android:title="@string/title_plans"/>
+
+    <item
+            android:id="@+id/navigation_trainee"
+            android:icon="@drawable/image_trainee"
+            android:title="@string/title_trainee"/>
+
+    <!--item
+            android:id="@+id/navigation_chat"
+            android:icon="@drawable/ic_chat_24dp"
+            android:title="@string/title_chat"/-->
+
+</menu>
